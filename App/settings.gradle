@@ -1,0 +1,3 @@
+include ':CSUBAR'
+include ':plugins'
+include ':wikitude-sdk'

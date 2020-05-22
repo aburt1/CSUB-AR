@@ -1,0 +1,19 @@
+[
+    {
+        "category_name": "Navigating Campus",
+        "samples": [
+
+            {
+                "name": "Click Here to Start",
+                "path": "LimitingRange/index.html",
+                "requiredFeatures": [
+                    "geo"
+                ],
+                "startupConfiguration": {
+                    "camera_position": "back",
+                    "camera_resolution": "auto"
+                }
+            }
+        ]
+    }
+]
