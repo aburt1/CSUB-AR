@@ -1,0 +1,177 @@
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="script.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Concert+One|Poppins&display=swap" rel="stylesheet"/>
+</head>
+
+<body>
+  <nav class="navbar sticky-top bg-light">
+    <a class="navbar-brand" href="https://andrewburt.dev/">Return to Resume</a>
+  </nav>
+<section class="about-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <br /><br /><br /><br /><br />
+        <div class="about-image clearfix">
+          <div class="single-image float-left">
+            <img src="image/2.png" alt="" />
+          </div>
+          <div class="single-image image-tow float-right">
+            <img src="image/1.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="about-content">
+          <h3>Campus Data For Geo-Location Based Augmented Reality</h3>
+          <b><p>Under the supervision of Dr. Chengwei Lei</p></b>
+            <br>
+          <p>
+            Currently students and guests of the CSUB campus can only navigate
+            around campus based on antiquated maps which may be inaccurate or
+            lead to confusion. They are not efficient at all and do more harm
+            than good. There is no true way of navigating around CSUB without
+            consulting the help of someone who is familiar with the ins and outs
+            of CSUB.
+          </p>
+          <br />
+          <p>
+            The main idea behind our solution stemmed from a conversation our
+            team had while we worked for ITS here at CSUB. Our Director Rich
+            Nelson, spoke about ideas they had that were in the pipeline but
+            very far back and of very low priority. The concept was an
+            interactive map that students could refer to when navigating CSUB.
+            This map would be perfect for both new and returning students
+            because CSUB has many unlabeled buildings and classes tend to be in
+            main areas. There are many locations that are unknown to most
+            students. Our team took this idea and expanded it to an AR, or
+            augmented reality, based mobile app. The app would make primary use
+            of the devices camera and when pointed toward a Point of Interest,
+            or POI, it would display an AR object that would act as a label for
+            that building. This would effectively label all buildings on campus
+            for students.
+          </p>
+          <br /><br />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+<center>
+<h3>Poster</h3>
+<div id="adobe-dc-view" style="width: 65%; height:auto;"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+</center>
+
+<hr>
+<center><h3>Videos</h3></center>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+
+<table style="margin-right: 22%;">
+  <tr>
+    <td align="right"><video width="72%" height="auto" autoplay loop muted playsinline>
+      <source src="video/APP.mp4" type="video/mp4" />
+    </video></td>
+    <td rowspan="2"><video width="100%" height="auto" autoplay loop muted playsinline>
+      <source src="video/APP2.mp4" type="video/mp4" />
+    </video>
+  </td>
+  </tr>
+  <tr>
+    <td align="right"><video style="border-style: solid; border-width: thin;" width="71%" height="auto" autoplay loop muted playsinline>
+      <source src="video/WEBAPP.mp4" type="video/mp4" />
+    </video></td>
+  </tr>
+</table>
+<br>
+<center>
+<div class="video" style="max-width: 60%;">
+  <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/412073715?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</div>
+
+<hr>
+<center><h3>Report</h3></center>
+<div id="adobe-dc-view2" style="height: auto; width: 60%;"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){
+		var adobeDCView2 = new AdobeDC.View({clientId: "e8a165a7066d44048c3a05d48a13e800", divId: "adobe-dc-view2"});
+		adobeDCView2.previewFile({
+			content:{location: {url: "https://andrewburt.dev/projects/CSUBAR/files/Report.pdf"}},
+			metaData:{fileName: "Report.pdf"}
+		}, {embedMode: "SIZED_CONTAINER", dockPageControls: false});
+	});
+</script>
+</center>
+<br>
+<hr>
+<center><h3>Downloads</h3>
+
+<p class="disclosure" style="max-width: 1400px;">
+  <small>Download our projects files below.</small>
+</p>
+
+<section style="max-width: 1400px;" class="rewards" aria-label="Rewards">
+
+  <div class="download">
+    <p>
+      <a download href="files/CSUBAR.apk">Download CSUB AR</a>
+    </p>
+    <p class="download__instructions">
+      <small>Download the CSUB AR app for Android devices</small>
+      <small class="download__properties">106 MB APK</small>
+    </p>
+  </div>
+
+  <div class="download">
+    <p>
+      <a download href="files/Poster.pdf">Download Poster</a>
+    </p>
+    <p class="download__instructions">
+      <small>Download the poster for our project.</small>
+      <small class="download__properties">826 KB PDF</small>
+    </p>
+  </div>
+
+  <div class="download">
+    <p>
+      <a download href="files/Report.pdf">Download Report</a>
+    </p>
+    <p class="download__instructions">
+      <small>Download the final report of our project.</small>
+      <small class="download__properties">2.5 MB PDF</small>
+    </p>
+  </div>
+
+  <div class="download">
+    <p>
+      <a download href="https://bigpapaburt.com/data/">View Admin Page</a>
+    </p>
+    <p class="download__instructions">
+      <small>Admin page of our project.</small>
+    </p>
+  </div>
+</section>
+</center>
+<br>
+</body>

@@ -1,0 +1,34 @@
+body {
+
+}
+
+.activated {
+	background-color: #8cc6ff;
+	color: white;
+}
+
+.table tr.ui-sortable-helper{
+	display: table !important;
+}
+
+
+.editable-unsaved {
+	font-weight: normal !important;
+}
+
+.alert {
+	display: none;
+}
+
+#addButton {
+	margin: 0; 
+}
+
+.popover-content {
+	padding: 3px;
+	text-align: center;
+}
+
+#fileSpan {
+	padding-left: 10px;
+}
